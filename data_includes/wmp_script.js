@@ -28,8 +28,6 @@ var items = [
   
   ["intro4", "Form", {consentRequired: false, continueMessage: "Clique aqui para ver um exemplo", html: {include: "intro4.html" }} ],
   
-  ["introVLT", "Form", {consentRequired: false, continueMessage: "Click here to start the vocabulary task", html: {include: "introVLT.html" }} ],
-  
   ["certificado", "Form", {consentRequired: false, continueMessage: "Click here to finish the experiment", html: {include: "certificado.html" }} ],
   
   //WM itens de prática 
@@ -38,7 +36,7 @@ var items = [
   
   ["practice2", "Question", {q: "Achei que eu ia enlouquecer no período do espaguete final.", hasCorrect: "Não"}, "FlashSentence", {s: "cenoura"}, "Question", {q: "Depois que as provas finais acabaram, tiramos nossas merecidas férias.", hasCorrect: "Sim"}, "FlashSentence", {s: "manga"}, "Question", {q: "Após um longo dia de trabalho, Carla gosta de tomar uma cerveja no bar.", hasCorrect: "Sim"}, "FlashSentence", {s: "luz"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp2.html"}}],
   
-  ["block1", "Question", {q: "Não importa o quanto falarmos com ele, ele nunca vai mudar.", hasCorrect: "Sim"}, "Message", {html: {include: "b11.html"}}, "Question", {q: "O prato do advogado foi recusado porque não era baseado em fatos.", hasCorrect: "Não"}, "Message", {html: {include: "b12.html"}}, "Question", {q: "Vez ou outra eu me pego nadando na parede.", hasCorrect: "Não"}, "Message", {html: {include: "b13.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallb1.html"}}],
+  ["block1", "Question", {q: "Não importa o quanto falarmos com ele, ele nunca vai mudar.", hasCorrect: "Sim"}, "FlashSentence", {s: "sistema"}, "Question", {q: "O prato do advogado foi recusado porque não era baseado em fatos.", hasCorrect: "Não"}, "FlashSentence", {s: "vestido"}, "Question", {q: "Vez ou outra eu me pego nadando na parede.", hasCorrect: "Não"}, "FlashSentence", {s: "túnel"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallb1.html"}}],
   
   ["block2", "Question", {q: "Nós estávamos há cadeiras mar adentro quando perdemos a terra de vista.", hasCorrect: "Não"}, "Message", {html: {include: "b21.html"}}, "Question", {q: "Durante toda a negociação, os reféns não perderam as esperanças.", hasCorrect: "Sim"}, "Message", {html: {include: "b22.html"}}, "Question", {q: "Lúcia tem medo de altura e se recusa a viajar de avião.", hasCorrect: "Sim"}, "Message", {html: {include: "b23.html"}}, "Question", {q: "O jovem lápis manteve seus olhos fechados durante todo o passeio.", hasCorrect: "Não"}, "Message", {html: {include: "b24.html"}}, "Question", {q: "A maioria das pessoas que ri está preocupada com a montanha.", hasCorrect: "Não"}, "Message", {html: {include: "b25.html"}},"Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallb2.html"}}],
   
