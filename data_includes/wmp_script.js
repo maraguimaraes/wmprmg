@@ -1,5 +1,5 @@
   
-var shuffleSequence = seq("setcounter", "tcle", "demografia", "intro1", "practice1", "intro2", "practice2", "intro3", "block1", "block2", "block3", "block4", "block5", "block6", "block7", "block8", "block9", "block10", "intro4", "practice4", "intro5", "practice5", "certificado", "hiddenCompletionCode");
+var shuffleSequence = seq("setcounter", "tcle", "demografia", "intro1", "practice1", "intro2", "practice2", "intro3", "block1", "block2", "block3", "block4", "block5", "block6", "block7", "block8", "block9", "block10", "intro4", "practice4", "intro5", "practice5", "intro3", "certificado", "hiddenCompletionCode");
 
 // Define valores default a serem usados em todo o experimento
 
