@@ -57,7 +57,7 @@ var items = [
   ["block10", "Question", {q: "Rodolfo caiu no chão quando tentava subir na árvore.", hasCorrect: "Sim"}, "FlashSentence", {s: "roda"}, "Question", {q: "A maioria das pessoas concorda que segunda-feira é a pior madeira da semana.", hasCorrect: "Não"}, "FlashSentence", {s: "porco"}, "Question", {q: "Eu adoro andar no parque em tardes de temperatura amena.", hasCorrect: "Sim"}, "FlashSentence", {s: "sonho"}, "Question", {q: "Com muita determinação, ela venceu os obstáculos e terminou a corrida.", hasCorrect: "Sim"}, "FlashSentence", {s: "rosa"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallb4.html"}}],
   
   //Pratica priming
-  ["practice4", "FlashSentence", {s: "Carol fez um desenho da sua mãe na escola.", timeout: 6000}, "Question", {q: "Carol desenhou um parente?", hasCorrect:"Sim"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para ver um exemplo", html: {include: "p1_img.html" }} ],
+  ["practice4", "FlashSentence", {s: "Carol fez um desenho da sua mãe na escola.", timeout: 6000}, "Question", {q: "Carol desenhou um parente?", hasCorrect:"Sim"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "p1_img.html" }}, "Question", {q: "A imagem corresponde à sentença que você leu?", hasCorrect: "Não"}],
   
   
   ];
