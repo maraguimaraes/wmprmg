@@ -4,13 +4,13 @@ var shuffleSequence = seq("setcounter", "tcle", "demografia", "intro1", "practic
 // Define valores default a serem usados em todo o experimento
 
 var defaults = [
-  "Question", {as: ["Sim", "Não"], randomOrder: false, presentHorizontally: true, timeout: 10000}, // randomOrder em false indica que as questoes sao sempre apresentadas em uma ordem fixa (primeiro sim, depois nao)
-  "Message", {transfer: 1000}
+  "Question", {as: ["Sim", "Não"], randomOrder: false, presentHorizontally: true, timeout: 10000},
+  "FlashSentence", {timeout: 1000}
   ];
 
-var sendingResultsMessage = "Please wait while we record your answers. This could take a few seconds, so please do not close this window yet.";
+var sendingResultsMessage = "Por favor, aguarde enquanto registramos suas respostas. Isso pode demorar alguns segundos, então não feche esta janela ainda.";
 
-var completionMessage = "Thank you so much for your participation! You can now close this window.";
+var completionMessage = "Agradecemos sua participação! Você pode fechar essa janela agora.";
 
 var items = [
   
@@ -34,7 +34,7 @@ var items = [
   
   //WM itens de prática 
   
-  ["practice1", "Question", {q: "Pedro foi parado pela polícia porque ele bebeu o sinal paraíso.", hasCorrect: "Não"}, "Message", {html: {include: "pw1.html"}}, "Question", {q: "É possível encontrar hotéis na praia com preço baixo durante o inverno.", hasCorrect: "Sim"}, "Message", {html: {include: "pw2.html"}}, "Question", {q: "As pessoas costumam ficar mais alegres e generosas na época do Natal.", hasCorrect: "Sim", }, "Message", {html: {include: "pw3.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp1.html"}}],
+  ["practice1", "Question", {q: "Pedro foi parado pela polícia porque ele bebeu o sinal paraíso.", hasCorrect: "Não"}, "FlashSentence", {s: "anel"}, "Question", {q: "É possível encontrar hotéis na praia com preço baixo durante o inverno.", hasCorrect: "Sim"}, "Message", {html: {include: "pw2.html"}}, "Question", {q: "As pessoas costumam ficar mais alegres e generosas na época do Natal.", hasCorrect: "Sim", }, "Message", {html: {include: "pw3.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp1.html"}}],
   
   ["practice2", "Question", {q: "Achei que eu ia enlouquecer no período do espaguete final.", hasCorrect: "Não"}, "Message", {html: {include: "pw4.html"}}, "Question", {q: "Depois que as provas finais acabaram, tiramos nossas merecidas férias.", hasCorrect: "Sim"}, "Message", {html: {include: "pw5.html"}}, "Question", {q: "Após um longo dia de trabalho, Carla gosta de tomar uma cerveja no bar.", hasCorrect: "Sim"}, "Message", {html: {include: "pw6.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp2.html"}}],
   
