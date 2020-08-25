@@ -34,7 +34,7 @@ var items = [
   
   //WM itens de prática 
   
-  ["practice1", "Question", {q: "Pedro foi parado pela polícia porque ele bebeu o sinal paraíso.", hasCorrect: "Não"}, "FlashSentence", {s: "anel"}, "Question", {q: "É possível encontrar hotéis na praia com preço baixo durante o inverno.", hasCorrect: "Sim"}, "Message", {html: {include: "pw2.html"}}, "Question", {q: "As pessoas costumam ficar mais alegres e generosas na época do Natal.", hasCorrect: "Sim", }, "Message", {html: {include: "pw3.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp1.html"}}],
+  ["practice1", "Question", {q: "Pedro foi parado pela polícia porque ele bebeu o sinal paraíso.", hasCorrect: "Não"}, "FlashSentence", {s: "anel"}, "Question", {q: "É possível encontrar hotéis na praia com preço baixo durante o inverno.", hasCorrect: "Sim"}, "FlashSentence", {s: "música"}, "Question", {q: "As pessoas costumam ficar mais alegres e generosas na época do Natal.", hasCorrect: "Sim", }, "FlashSentence", {s: "sacola"}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp1.html"}}],
   
   ["practice2", "Question", {q: "Achei que eu ia enlouquecer no período do espaguete final.", hasCorrect: "Não"}, "Message", {html: {include: "pw4.html"}}, "Question", {q: "Depois que as provas finais acabaram, tiramos nossas merecidas férias.", hasCorrect: "Sim"}, "Message", {html: {include: "pw5.html"}}, "Question", {q: "Após um longo dia de trabalho, Carla gosta de tomar uma cerveja no bar.", hasCorrect: "Sim"}, "Message", {html: {include: "pw6.html"}}, "Form", {consentRequired: false, continueMessage: "Clique aqui para continuar", html: {include: "recallp2.html"}}],
   
