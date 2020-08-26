@@ -35,7 +35,7 @@ var items = [
   
   ["intro6", "Form", {consentRequired: false, continueMessage: "Clique aqui para ver um exemplo", html: {include: "intro6.html" }} ],
   
-  ["certificado", "Form", {consentRequired: false, continueMessage: "Click here to finish the experiment", html: {include: "certificado.html" }} ],
+  ["certificado", "Form", {consentRequired: false, continueMessage: "Clique aqui para terminar o experimento", html: {include: "certificado.html" }} ],
   
   //WM itens de prática 
   
